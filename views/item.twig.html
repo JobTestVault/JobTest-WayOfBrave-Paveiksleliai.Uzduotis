@@ -1,0 +1,9 @@
+<div class="image">
+    <div class="preview"><img src="{{ image.resized_100x100 }}" alt="{{ image.name }}" title="{{ image.name }}" /></div>
+    <h3>{{ image.name }}</h3>
+    <strong>Paveikslėlio variantai:</strong>
+    <a href="{{ image.original }}" rel="lightbox">Originalus</a>,
+    <a href="{{ image.resized_100x100 }}" rel="lightbox">100x100</a>,
+    <a href="{{ image.resized_200x200 }}" rel="lightbox">200x200</a>,
+    <a href="{{ image.resized_300x300 }}" rel="lightbox">300x300</a>
+</div>

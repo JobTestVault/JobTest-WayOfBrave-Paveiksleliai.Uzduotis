@@ -1,0 +1,33 @@
+[
+    {
+        "name": "smottt/wideimage",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smottt/WideImage.git",
+            "reference": "9d0a3a14460c7b188fc3cd9c0ec7539489a84ddc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smottt/WideImage/zipball/9d0a3a14460c7b188fc3cd9c0ec7539489a84ddc",
+            "reference": "9d0a3a14460c7b188fc3cd9c0ec7539489a84ddc",
+            "shasum": ""
+        },
+        "time": "2012-09-03 11:14:31",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "WideImage": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0",
+            "LGPL-2.1"
+        ],
+        "description": "An open-source PHP library for image manipulation. (With namespaces, PHP 5.3+)",
+        "homepage": "http://wideimage.sourceforge.net"
+    }
+]
